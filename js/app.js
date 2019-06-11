@@ -1,7 +1,7 @@
 'use strict';
 
 //Global variable - time
-var times = ['6am','7am','8am','9am','10am','llam','12pm','1pm','2pm','3pm','4pm','5pm','6pm','7pm','8pm'];
+var times = ['6am','7am','8am','9am','10am','11am','12pm','1pm','2pm','3pm','4pm','5pm','6pm','7pm','8pm'];
 
 
 //Var location 1st & Pike
@@ -13,9 +13,10 @@ var firstAndPike = {
   sumCookies: 0,
 
   randomCustsPerHour: function (min,max) {
-    return Math.floor(Math.random() * (max - min)) + min;
+    return Math.floor(Math.random() * 
+      ((max - min)) + 1);
   },
-  
+
   avgCookiesPerHour: function () {
     return Math.ceil(this.randomCustsPerHour(this.min,this.max) * this.avgCookies);
   },
