@@ -1,0 +1,34 @@
+headers {
+  padding: 1em;
+}
+
+main {
+  margin-top:40px;
+}
+
+body {
+  background-color: lightgoldenrodyellow;
+  color: #283026;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+header > nav > ul > li {
+  border: 1px outset #eeeeee;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 1000;
+  list-style-type: none;
+  padding: 0.5em 1em;
+  margin-right: 1em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header > nav > ul > li:hover {
+  background: #283026;
+  color: #eeeeee;
+}
