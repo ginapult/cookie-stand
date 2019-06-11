@@ -13,9 +13,10 @@ var firstAndPike = {
   sumCookies: 0,
 
   randomCustsPerHour: function (min,max) {
-    return Math.floor(Math.random() * (max - min)) + min;
+    return Math.floor(Math.random() * 
+      ((max - min)) + 1);
   },
-  
+
   avgCookiesPerHour: function () {
     return Math.ceil(this.randomCustsPerHour(this.min,this.max) * this.avgCookies);
   },

@@ -1,2 +1,3 @@
 # cookie-stand
-Lab06
+Code Fellows 201 Lab06
+
