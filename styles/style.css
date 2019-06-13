@@ -32,3 +32,40 @@ header > nav > ul > li:hover {
   background: #283026;
   color: #eeeeee;
 }
+
+table {
+  margin: auto;
+  width: 75%;
+  border: 1px solid #283026;
+}
+
+th {
+  font-weight: bold;
+  padding: .4em;
+}
+
+td {
+  text-align: right;
+  padding: .25em;
+  border: 1px solid #283026;
+}
+
+tr td:first-child {
+  background: #283026;
+  color: whitesmoke
+}
+
+tr {
+  border: 1px solid #eeeeee;
+}
+
+thead {
+  background: #283026;
+  color: whitesmoke;
+}
+
+tfoot {
+  background: #283026;
+  opacity: .75;
+  color: whitesmoke;
+}
