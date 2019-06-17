@@ -1,15 +1,50 @@
-headers {
+h1 {
   padding: 1em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 44px;
+  }
+
+h2 {
+  padding: 1em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 33px;
+  }
+
+h3 {
+  padding: 1em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 22px;
+}
+
+h4 {
+  padding: 1em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 12px;
+  display: inline-block;
+}
+ p {
+  margin-left: 40px;
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+ }
+
+img {
+  max-width: 70%;
+  height: auto;
+  margin-bottom: 50px;
 }
 
 main {
   margin-top:40px;
+  margin-left: 40px;
 }
 
 body {
   background-color: lightgoldenrodyellow;
   color: #283026;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px;
 }
 
 header > nav > ul > li {
@@ -20,6 +55,7 @@ header > nav > ul > li {
   font-weight: 1000;
   list-style-type: none;
   padding: 0.5em 1em;
+  margin-left: 2em;
   margin-right: 1em;
 }
 
@@ -31,6 +67,12 @@ a {
 header > nav > ul > li:hover {
   background: #283026;
   color: #eeeeee;
+}
+
+
+footer {
+  margin-left: 2em;
+  padding: 30px;
 }
 
 table {
@@ -68,4 +110,13 @@ tfoot {
   background: #283026;
   opacity: .75;
   color: whitesmoke;
+}
+
+.gallery div {
+  border: 2px solid whitesmoke;
+  display: inline;
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 50px;
 }
